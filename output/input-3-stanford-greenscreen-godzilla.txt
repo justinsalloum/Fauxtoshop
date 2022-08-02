@@ -1,0 +1,17 @@
+stanford-oval.jpg
+3
+bad-file-name.oops
+green-godzilla.png
+-1
+300
+42
+what do you mean??
+(-999,-456)
+(90,250)
+stanford-godzilla.png
+stanford-godzilla.png
+4
+expected-output-stanford-greenscreen-godzilla-42-90-250.png
+
+
+

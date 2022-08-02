@@ -1,0 +1,16 @@
+kitten.jpg
+1
+999
+-5
+10
+kitten-scatter-10.png
+oops-not-found.png
+kitten-scatter-10.png
+what?
+0
+4
+bad-image-file-wont-be-found.png
+expected-output-kitten-scatter-10.png
+
+
+

@@ -1,0 +1,37 @@
+Welcome to Fauxtoshop!
+Enter name of image file to open (or blank to quit): stanford-oval.jpg
+Opening image file, may take a minute...
+Which image filter would you like to apply?
+	1 - Scatter
+	2 - Edge detection
+	3 - "Green screen" with another image
+	4 - Compare image with another image
+Your choice: 3
+Now choose another file to add to your background image.
+Enter name of image file to open: bad-file-name.oops
+Opening image file, may take a minute...
+Enter name of image file to open: green-godzilla.png
+Opening image file, may take a minute...
+Now choose a tolerance threshold: -1
+Now choose a tolerance threshold: 300
+Now choose a tolerance threshold: 42
+Enter location to place image as "(row,col)" (or blank to use mouse): what do you mean??
+Enter location to place image as "(row,col)" (or blank to use mouse): (-999,-456)
+Enter location to place image as "(row,col)" (or blank to use mouse): (90,250)
+Enter filename to save image (or blank to skip saving): stanford-godzilla.png
+
+Enter name of image file to open (or blank to quit): stanford-godzilla.png
+Opening image file, may take a minute...
+Which image filter would you like to apply?
+	1 - Scatter
+	2 - Edge detection
+	3 - "Green screen" with another image
+	4 - Compare image with another image
+Your choice: 4
+Now choose another image file to compare to.
+Enter name of image file to open: expected-output-stanford-greenscreen-godzilla-42-90-250.png
+Opening image file, may take a minute...
+These images are the same!
+
+Enter name of image file to open (or blank to quit): 
+Exiting.

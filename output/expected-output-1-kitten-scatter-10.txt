@@ -1,0 +1,41 @@
+Welcome to Fauxtoshop!
+Enter name of image file to open (or blank to quit): kitten.jpg
+Opening image file, may take a minute...
+Which image filter would you like to apply?
+	1 - Scatter
+	2 - Edge detection
+	3 - "Green screen" with another image
+	4 - Compare image with another image
+Your choice: 1
+Enter degree of scatter [1-100]: 999
+Enter degree of scatter [1-100]: -5
+Enter degree of scatter [1-100]: 10
+Enter filename to save image (or blank to skip saving): kitten-scatter-10.png
+
+Enter name of image file to open (or blank to quit): oops-not-found.png
+Opening image file, may take a minute...
+Enter name of image file to open (or blank to quit): kitten-scatter-10.png
+Opening image file, may take a minute...
+Which image filter would you like to apply?
+	1 - Scatter
+	2 - Edge detection
+	3 - "Green screen" with another image
+	4 - Compare image with another image
+Your choice: what?
+Illegal integer format. Try again.
+Your choice: 0
+Which image filter would you like to apply?
+	1 - Scatter
+	2 - Edge detection
+	3 - "Green screen" with another image
+	4 - Compare image with another image
+Your choice: 4
+Now choose another image file to compare to.
+Enter name of image file to open: bad-image-file-wont-be-found.png
+Opening image file, may take a minute...
+Enter name of image file to open: expected-output-kitten-scatter-10.png
+Opening image file, may take a minute...
+These images are the same!
+
+Enter name of image file to open (or blank to quit): 
+Exiting.

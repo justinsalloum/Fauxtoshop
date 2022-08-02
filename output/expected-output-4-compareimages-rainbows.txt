@@ -1,0 +1,19 @@
+Welcome to Fauxtoshop!
+Enter name of image file to open (or blank to quit): rainbow.png
+Opening image file, may take a minute...
+Which image filter would you like to apply?
+	1 - Scatter
+	2 - Edge detection
+	3 - "Green screen" with another image
+	4 - Compare image with another image
+Your choice: 4
+Now choose another image file to compare to.
+Enter name of image file to open: this file doesn't exist lolol
+Opening image file, may take a minute...
+Enter name of image file to open: rainbow-love-you.png
+Opening image file, may take a minute...
+These images differ in 927 pixel locations!
+Press Enter to continue ... 
+
+Enter name of image file to open (or blank to quit): 
+Exiting.

@@ -1,0 +1,27 @@
+Welcome to Fauxtoshop!
+Enter name of image file to open (or blank to quit): pusheen.png
+Opening image file, may take a minute...
+Which image filter would you like to apply?
+	1 - Scatter
+	2 - Edge detection
+	3 - "Green screen" with another image
+	4 - Compare image with another image
+Your choice: 2
+Enter threshold for edge detection: 30
+Enter filename to save image (or blank to skip saving): pusheen-edge-30.png
+
+Enter name of image file to open (or blank to quit): pusheen-edge-30.png
+Opening image file, may take a minute...
+Which image filter would you like to apply?
+	1 - Scatter
+	2 - Edge detection
+	3 - "Green screen" with another image
+	4 - Compare image with another image
+Your choice: 4
+Now choose another image file to compare to.
+Enter name of image file to open: expected-output-pusheen-edge-30.png
+Opening image file, may take a minute...
+These images are the same!
+
+Enter name of image file to open (or blank to quit): 
+Exiting.
