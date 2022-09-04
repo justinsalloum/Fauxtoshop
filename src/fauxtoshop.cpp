@@ -100,11 +100,14 @@ void applyImageFilter(GWindow& gw, GBufferedImage& img) {
         int filter = getInteger("Your choice: ", "Illegal integer format. Try again.");
         switch (filter) {
             case 1:
-                return applyScatter(img);
+                applyScatter(img);
+                return maybeSaveImage(img);
             case 2:
-                return applyEdgeDetection(img);
+                applyEdgeDetection(img);
+                return maybeSaveImage(img);
             case 3:
-                return applyGreenScreen(img);
+                applyGreenScreen(img);
+                return maybeSaveImage(img);
             case 4:
                 return compareImage(gw, img);
             default:
@@ -131,7 +134,6 @@ void applyScatter(GBufferedImage& img) {
     }
 
     img.fromGrid(result);
-    maybeSaveImage(img);
 }
 
 /*
@@ -167,7 +169,6 @@ void applyEdgeDetection(GBufferedImage& img) {
     }
 
     img.fromGrid(result);
-    maybeSaveImage(img);
 }
 
 /*
@@ -238,7 +239,6 @@ void applyGreenScreen(GBufferedImage& img) {
     }
 
     img.fromGrid(result);
-    maybeSaveImage(img);
 }
 
 /*
